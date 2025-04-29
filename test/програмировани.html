@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>Welder</title>
+	<link rel="website icon" type="jpg"href="icon.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js" defer></script>
+	</head>
+  
+	<body background-color=#0AFF0E>
+        <p class="p1">Саволҳои тести барои санҷидани дониши худ.</p>  
+
+<form name="quiz">
+ <p class="p2">
+ 1. Кадоме аз дар пойон қайд кардашудагон ба бравзер дохил намешаванд?</p>
+<ul class="ul1">
+  <li><input type="radio" name="q1" value="1">Yandex</li>
+  <li><input type="radio" name="q1" value="5">Chrome</li>
+  <li><input type="radio" name="q1" value="6">Google</li>
+  <li><input type="radio" name="q1" value="9">Explorer</li>
+</ul>
+
+ <p class="p2">
+2. Вазифаи Body аз чи иборат аст?</p>
+<ul class="ul1">
+  <li><input type="radio" name="q2" value="Pacific">Форма</li>
+  <li><input type="radio" name="q2" value="Erie">Танаи сайт</li>
+  <li><input type="radio" name="q2" value="Atlantic">Гипер силка</li>
+  <li><input type="radio" name="q2" value="Artic">Абзаст</li>
+</ul>
+
+<p class="p2">
+3. Навишти дурусти операторро дар Python муайян намоед.</p>
+<ul class="ul1">
+  <li><input type="radio" name="q3" value="8">print ("Салом")</li>
+  <li><input type="radio" name="q3" value="12">print "Салом"</li>
+  <li><input type="radio" name="q3" value="6">print (Салом)</li>
+  <li><input type="radio" name="q3" value="14">print Салом</li>
+</ul>
+
+<p class="p2">
+4. Кадоме аз ин бахшидани қиммат ба тағирёбандаи integer дуруст аст?</p>
+<ul class="ul1">
+  <li><input type="radio" name="q4" value="B">x=3.14</li>
+  <li><input type="radio" name="q4" value="P">x="5"</li>
+    <li><input type="radio" name="q4" value="M">x=true</li>
+  <li><input type="radio" name="q4" value="G">x=256</li>
+</ul>
+
+<p class="p2">
+5. Тағирёбанда дорои кадом атрибута иборат аст?</p>
+<ul class="ul1">
+  <li><input type="radio" name="q5" value="Monday">Қиммат ва ном</li>
+  <li><input type="radio" name="q5" value="Wednesday">Ранг</li>
+  <li><input type="radio" name="q5" value="Friday">Хотира</li>
+  <li><input type="radio" name="q5" value="Sunday">Миқдор</li>
+</ul>
+
+<p class="p2">
+6. Оператори шартиро номбар кунед.</p>
+<ul class="ul1">
+  <li><input type="radio" name="q6" value="10">select</li>
+  <li><input type="radio" name="q6" value="12">while</li>
+  <li><input type="radio" name="q6" value="9">if</li>
+  <li><input type="radio" name="q6" value="13">for</li>
+</ul>
+
+<p class="p2">
+7. Барои пеш аз муҳлат баромадан аз сикл кадом оператор истифода бурда мешавад?</p>
+<ul class="ul1">
+  <li><input type="radio" name="q7" value="banana">while</li>
+  <li><input type="radio" name="q7" value="float">if</li>
+  <li><input type="radio" name="q7" value="fire">input</li>
+  <li><input type="radio" name="q7" value="bloat">break</li>
+</ul>
+
+<p class="p2">
+8. Дарози номи тағирёбанда то чанд символро дар бар гирифта метавонад?</p>
+<ul class="ul1">
+  <li><input type="radio" name="q8" value="8543675">10</li>
+  <li><input type="radio" name="q8" value="3565378">245</li>
+  <li><input type="radio" name="q8" value="7254376">233</li>
+  <li><input type="radio" name="q8" value="3564278">255</li>
+</ul>
+
+
+<p class="p2">
+9. x=56 Дар ин ҷо 56 ин</p>
+<ul class="ul1">
+  <li><input type="radio" name="q9" value="1">Масоҳати секунҷа</li>
+  <li><input type="radio" name="q9" value="4">Қиммати тағирёбанда</li>
+  <li><input type="radio" name="q9" value="5">Идентификатои тағирёбанда</li>
+  <li><input type="radio" name="q9" value="13">Тағирёбанда</li>
+</ul>
+
+<p class="p2">
+10. Алгоритм аз калимаи......оғоз мегардад.</p>
+<ul class="ul1">
+  <li><input type="radio" name="q10" value="Horse">Интиҳо</li>
+  <li><input type="radio" name="q10" value="Bird">Ибтидо</li>
+  <li><input type="radio" name="q10" value="Tiger">Дохилкуни</li>
+  <li><input type="radio" name="q10" value="Dog">Барориш</li>
+</ul>
+<br>
+
+<br>
+<div class="div1">
+<input style="font-size:20px;"type="button" value="Холи худро гиред" onClick="getScore(this.form)">
+<input style="font-size:20px;"type="reset" value="Тоза кардан"><br>
+<p style="color: #FFFFFF; font-size:20px;"> Score = <strong><input class="bgclr" type="text" size="3"  style="font-size:17pt;" name="percentage" disabled></strong><br><br></p>
+<p ><h3 style="font-size:30px;color: #FFFFFF;">Тавсири холҳои шумо: </h3><h2 style="color: #FFFFFF;">180- Ба дараҷаи 1 ум.<br> 160 - 180 - Ба дараҷаи 2 ум.<br> 140 - 160 -  Ба дараҷаи 3 ум.<br>120 - 140 - Ба дараҷаи 4 ум.<br> 110 - 119 - Ба дараҷаи 5 ум. <br>90 - 109 - Ба дараҷаи 6 ум.</p>
+<br>
+Ба диқататон ташакур.🙂<br>
+<br>
+<br>
+
+<img src="осн.jpg">
+<br>
+<br>
+Иҷрокунанда:
+Махсумов Фозилҷон
+<br><br>
+
+instagram@<a href="https://www.instagram.com/foziljon_2oo4?igsh=dGUzeDMyM3R4aXB0">foziljon_2oo4</a>
+<br>
+email@fozilmahsumov58@gmail.com
+<br>
+<br>
+Тел:
+<br>
+(+992)918752050
+<br>
+<br>
+
+
+</h2>
+</div>
+</form>
+	
+	</body>
+
+</html>

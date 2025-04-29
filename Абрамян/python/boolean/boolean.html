@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Абрамов</title>
+		<link rel="website icon" type="jpg"href="icon.jpg">
+	</head>
+	<body>
+		<style>
+			body{
+				 background:#BBBBBB;
+			
+			}
+			h1{
+				}
+			div{
+				border: 3px solid white;
+				border-radius: 5px;
+				background:#888888;
+			}
+		</style>
+		<h1>Ҳалли масъалаҳои барномасози Boolean дар Python.</h1>
+		<h2>Boolean1(Abramyan). </h2><h3>Адади бутуни 𝑎 дода шудааст. Дурустии гуфтори: «Aдади 𝑎 мусбат аст» санҷида шавад.  </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+print(f"Adadi {a} musbat ast.",a>0)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean2(Abramyan). </h2><h3>  Адади бутуни 𝑎 дода шудааст. Дурустии гуфтори: «Адади 𝑎 тоқ аст» санҷида шавад.</h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+x=a%2
+print(f"Adadi {a} toq ast.",a==1)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean3(Abramyan). </h2><h3> Адади бутуни 𝑎 дода шудааст. Дурустии гуфтори: «Адади 𝑎 ҷуфт аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+x=a%2
+print(f"Adadi {a} juft ast.",a==0)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean4(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори: «Нобаробариҳои 𝑎 > 2 ва 𝑏 ≤ 3 дуруст аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+print(f"Nobarobarihoi {a}>2 va {b}<=3 durust ast.",a>2,b<=3)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean5(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори: «Нобаробариҳои 𝑎 ≥ 0 ё 𝑏 < −2 дуруст аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+print(f"Nobarobarihoi {a}>=0 yo {b}<-2 durust ast.",a>=0 or b<-2)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean6(Abramyan). </h2><h3>  Се ададҳои бутуни 𝑎, 𝑏, 𝑐 дода шудаанд. Дурустии гуфтори: «Нобаробарии дукаратаи 𝑎 < 𝑏 < 𝑐 дуруст аст» санҷида шавад.</h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+c=int(input())
+print(f"Nobarobarihoi {a}<{b}<{c} durust ast.",a<b<c)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean7(Abramyan). </h2><h3> Се ададҳои бутуни 𝑎, 𝑏, 𝑐 дода шудаанд. Дурустии гуфтори: «Адади 𝑏 дар байни ададҳои 𝑎 ва 𝑐 ҷойгир аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+c=int(input())
+print(f"Adadi {b} dar bayni adadhoi {a} va {c} joygir ast.",a<b<c or c<b<a)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean8(Abramyan). </h2><h3>Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори: «Ҳар яке аз ададҳои 𝑎 ва 𝑏 тоқанд» санҷида шавад.  </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+xa=a%2
+xb=b%2
+print(f"Adadhoi {a} va {b} toq hastand.",a==1 end b==1)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean9(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори:  
+«Ақалан яке аз ададҳои 𝑎 ва 𝑏 тоқ аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+xa=a%2
+xb=b%2
+print(f"Aqalan yake az adadhoi {a} va {b} toq hastand.",a==1 or b==1)
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean10(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори:  
+«Танҳо яке аз ададҳои 𝑎 ва 𝑏 тоқ аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+a=int(input())
+b=int(input())
+xa=a%2
+xb=b%2
+print(f"Tanho yake az adadhoi {a} va {b} toq hastand.",(a==1 and b!=1) or (a!=1 and b==1))
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean1(Abramyan). </h2><h3>  </h3>	
+		<div>
+			<pre>
+				<code>
+
+				</code>
+			</pre>
+		</div>
+		
+		
+	</body>
+</html>

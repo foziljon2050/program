@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Абрамов</title>
+		<link rel="website icon" type="jpg"href="icon.jpg">
+	</head>
+	<body>
+		<style>
+			body{
+				 background:#BBBBBB;
+			
+			}
+			h1{
+				}
+			div{
+				border: 3px solid white;
+				border-radius: 5px;
+				background:#888888;
+			}
+		</style>
+		<h1>Ҳалли масъалаҳои барномасози Begin дар C++.</h1>
+		<h2>Begin1(Abramyan). </h2><h3>Тарафи квадрат 𝑎 дода шудааст. Периметри он 𝑝 = 4 ⋅ 𝑎 ёфта шавад.</h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    float a;
+    cout << "a:";
+    cin >> a;
+ 
+    float P= 4*a;
+    cout << "P:" << P;
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin2(Abramyan).</h2><h3> Тарафи квадрат 𝑎 дода шудааст. Масоҳати он 𝑠 = 𝑎^2 ёфта шавад.</h3>	
+		<div>
+			<pre>
+				<code>
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    float a;
+    cout << "a=";
+    cin >> a;
+    float S = a*a;
+    cout << "S=" << S;
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin3(Abramyan).</h2><h3> Тарафи росткунҷа 𝑎 ва 𝑏 дода шудаанд. Масоҳати он 𝑠 = 𝑎 ⋅ 𝑏 ва перемитри он 𝑝 = 2 ⋅ (𝑎 + 𝑏) ёфта шаванд.	</h3>
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    float a,b;
+    cout << "a=";
+    cin >> a;
+    cout << "b=";
+    cin >> b;
+ 
+    float s = a*b;
+    cout << "s=" << s << endl;
+    float p = 2*(a+b);
+    cout << "p=" << p << endl;
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin4(Abramyan).</h2><h3> Диаметри давра 𝑑 дода шудааст. Дарозии давра 𝑙 = 𝜋 ⋅ 𝑑 ёфта шавад. Ба сифати қимати 𝜋 = 3.14 истифода бурда шавад.	</h3>
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+ 
+int main(void)
+{
+    float d;
+    printf("d:");
+    scanf ("%f", &d);
+ 
+    float L= 3.14*d;
+    printf("L:%f\n",L);
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin5(Abramyan).</h2><h3> Дарозии теғаи куб 𝑎 дода шудааст. Ҳаҷми куб 𝑣 = 𝑎^3 ва масоҳати сатҳи он 𝑠 = 6 ⋅ 𝑎^2 ёфта шаванд</h3>
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+ 
+int main(void)
+{
+    float a;
+    printf("a:");
+    scanf ("%f", &a);
+ 
+    float V= a*a*a;
+    printf("V:%f\n",V);
+ 
+    float S= 6*a*a;
+    printf("S:%f\n",S);
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin6(Abramyan).</h2><h3> Дарозии теғаҳои параллелипипеди росткунҷа 𝑎, 𝑏 ва 𝑐 дода шудаанд. Ҳаҷми он 𝑣 = 𝑎 ⋅ 𝑏 ⋅ 𝑐 ва масоҳати сатҳи он 𝑠 = 2 ⋅ (𝑎 ⋅ 𝑏 + 𝑏 ⋅ 𝑐 + 𝑎 ⋅ 𝑐) ёфта шаванд.</h3>
+		
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+ 
+int main(void)
+{
+    float a,b ,c;
+    printf("a:");
+    scanf ("%f", &a);
+ 
+    printf("b:");
+    scanf ("%f", &b);
+ 
+    printf("c:");
+    scanf ("%f", &c);
+ 
+    float V= a*b*c;
+    printf("V:%f\n",V);
+ 
+    float S= 2*(a*b+b*c+a*c);
+    printf("S:%f\n",S);
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin7(Abramyan).</h2><h3> Аз рӯи қимати додашудаи 𝑟 дарозии давра 𝑙 ва масоҳати доира 𝑠 ёфта шаванд: 𝑙 = 2 ⋅ 𝜋 ⋅ 𝑟; 𝑠 = 𝜋 ⋅ r^2 . Ба сифати қимати 𝜋 = 3.14 истифода бурда шавад.</h3>
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+ 
+int main(void)
+{
+    float R;
+    printf("R:");
+    scanf ("%f", &R);
+ 
+    float L= 2*3.14*R;
+    printf("V:%f\n",L);
+ 
+    float S= 3.14*R*R;
+    printf("S:%f\n",S);
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Begin8(Abramyan).</h2><h3>Ададҳои 𝑎 ва 𝑏 дода шудаанд. Миёнаи арифметикии онҳо (𝑎 + 𝑏)/2 ёфта шавад.</h3>
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+ 
+int main(void)
+{
+    float a, b;
+    printf("a:");
+    scanf ("%f", &a);
+ 
+    printf("b:");
+    scanf ("%f", &b);
+ 
+    printf("%f\n",(a+b)/2);
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		<h2>Begin9(Abramyan).</h2><h3>Ададҳои 𝑎 ва 𝑏 дода шудаанд. Миёнаи геометрии онҳо ёфта шавад, яъне решаи квадратӣ аз ҳосили зарби онҳо: √𝑎 ⋅ 𝑏.
+</h3>
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+#include <math.h>
+ 
+int main(void)
+{
+    float a, b;
+    printf("a:");
+    scanf ("%f", &a);
+ 
+    printf("b:");
+    scanf ("%f", &b);
+ 
+    printf("%f\n",sqrt(a*b));
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		<h2>Begin10(Abramyan).</h2><h3>. Ду ададҳои ғайрисифрии 𝑎 ва 𝑏 дода шудаанд.Ҳосили ҷамъ, тарҳ, зарб ва тақсими квадрати онҳо ёфта шаванд.
+</h3>
+		<div>
+			<pre>
+				<code>
+#include <stdio.h>
+ 
+int main(void)
+{
+    float a, b;
+    printf("a:");
+    scanf ("%f", &a);
+ 
+    printf("b:");
+    scanf ("%f", &b);
+ 
+    printf("%f\n",a*a+b*b);
+    printf("%f\n",a*a-b*b);
+    printf("%f\n",a*a*b*b);
+    printf("%f\n",(a*a)/(b*b));
+ 
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Абрамов</title>
+		<link rel="website icon" type="jpg"href="icon.jpg">
+	</head>
+	<body>
+		<style>
+			body{
+				 background:#BBBBBB;
+			
+			}
+			h1{
+				}
+			div{
+				border: 3px solid white;
+				border-radius: 5px;
+				background:#888888;
+			}
+		</style>
+		<h1>Ҳалли масъалаҳои барномасози Boolean дар C++.</h1>
+		<h2>Boolean1(Abramyan). </h2><h3>Адади бутуни 𝑎 дода шудааст. Дурустии гуфтори: «Aдади 𝑎 мусбат аст» санҷида шавад.  </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cin>>a;
+    if (a>0){
+        cout <<"True";
+        }
+    else {
+        cout <<"Folse";
+        }
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean2(Abramyan). </h2><h3>  Адади бутуни 𝑎 дода шудааст. Дурустии гуфтори: «Адади 𝑎 тоқ аст» санҷида шавад.</h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cin>>a;
+    if (a%2==1){
+        cout <<"True";
+        }
+    else {
+        cout <<"Folse";
+        }
+    return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean3(Abramyan). </h2><h3> Адади бутуни 𝑎 дода шудааст. Дурустии гуфтори: «Адади 𝑎 ҷуфт аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a;
+	cin>>a;
+	if (a%2==0){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean4(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори: «Нобаробариҳои 𝑎 > 2 ва 𝑏 ≤ 3 дуруст аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b;
+	cin>>a;
+    cin>>b;
+	if (a>2 end b<=3){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean5(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори: «Нобаробариҳои 𝑎 ≥ 0 ё 𝑏 < −2 дуруст аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b;
+	cin>>a;
+    cin>>b;
+	if (a>=0 or b<-2){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean6(Abramyan). </h2><h3>  Се ададҳои бутуни 𝑎, 𝑏, 𝑐 дода шудаанд. Дурустии гуфтори: «Нобаробарии дукаратаи 𝑎 < 𝑏 < 𝑐 дуруст аст» санҷида шавад.</h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b,c;
+	cin>>a;
+    cin>>b;
+	cin>>c;
+	if (a < b and b < c){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean7(Abramyan). </h2><h3> Се ададҳои бутуни 𝑎, 𝑏, 𝑐 дода шудаанд. Дурустии гуфтори: «Адади 𝑏 дар байни ададҳои 𝑎 ва 𝑐 ҷойгир аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b,c;
+	cin>>a;
+    cin>>b;
+	cin>>c;
+	if (a < b and b < c or c < b and b < a){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean8(Abramyan). </h2><h3>Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори: «Ҳар яке аз ададҳои 𝑎 ва 𝑏 тоқанд» санҷида шавад.  </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b;
+	cin>>a;
+    cin>>b;
+	if (a%2==1 and b%2==1){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean9(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори:«Ақалан яке аз ададҳои 𝑎 ва 𝑏 тоқ аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b;
+	cin>>a;
+    cin>>b;
+	if (a%2==1 or b%2==1){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean10(Abramyan). </h2><h3> Ду ададҳои бутуни 𝑎, 𝑏 дода шудаанд. Дурустии гуфтори:«Танҳо яке аз ададҳои 𝑎 ва 𝑏 тоқ аст» санҷида шавад. </h3>	
+		<div>
+			<pre>
+				<code>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b;
+	cin>>a;
+    cin>>b;
+	if (a%2==1 and b%2==0 or a%2==0 and b%2==1){
+		cout <<"True";
+	}
+	else {
+		cout <<"Folse";
+	}
+	return 0;
+}
+				</code>
+			</pre>
+		</div>
+		
+		<h2>Boolean1(Abramyan). </h2><h3>  </h3>	
+		<div>
+			<pre>
+				<code>
+
+				</code>
+			</pre>
+		</div>
+		
+		
+	</body>
+</html>
